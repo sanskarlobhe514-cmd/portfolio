@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgb(246, 236, 236);
+    
 }
 .navbar{
     background-color: black;
@@ -64,3 +65,27 @@ gap: 100px;
     margin-left: 150px;
     border-radius: 100px;
 }
+a{
+    text-decoration: none;
+}
+.education {
+            text-align: center;
+            padding: 50px 20px;
+        }
+.education h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .education h2 {
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .edu-box {
+            background-color: white;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: left;
+        }
