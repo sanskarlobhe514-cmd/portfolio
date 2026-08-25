@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(246, 236, 236);
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.Home,.About-me,.Education,.Resume,.Contact-us{
+    color: white;
+    }
+.title{
+    color: rgb(255, 254, 254);
+    margin-left: 10px;
+    font-family: "Black Ops One", system-ui;
+    padding-left: 130px;
+    position: relative;
+    top: -60px;
+}
+.menus{
+display: flex;
+gap: 100px;
+    
+}
+.title-h1{
+    margin-top: 101px;
+}
+.home{
+    min-height: 80vh;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 120px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.text h2{
+    font: size 30px;
+    margin-bottom: 15px;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.img{
+    height: 240px;
+    margin-left: 150px;
+    border-radius: 100px;
+}
+
